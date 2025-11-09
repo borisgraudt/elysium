@@ -117,7 +117,7 @@ MESHLINK_API_PORT=17082 cargo run --bin cli -- broadcast "Hello MeshLink!"
 ### 4.4. Отправить сообщение конкретному пиру
 
 ```bash
-MESHLINK_API_PORT=17082 cargo run --bin cli -- send <peer_id> "Hello peer!"
+MESHLINK_API_PORT=17082 cargo run --bin cli -- send f3c6b661-919e-47dd-8ecc-e24324bb6099 "Hello peer!"
 ```
 
 Замените `<peer_id>` на реальный ID из команды `peers`.
